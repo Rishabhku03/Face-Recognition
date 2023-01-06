@@ -19,7 +19,7 @@ Labelme 4.5 or above
 
 1.	Labelme: This is an open-source graphical image     annotation tool that allows us to annotate images with bounding boxes and labels. It is useful for creating a dataset of images with labeled faces, which can be used to train a deep learning model.
 
-2.TensorFlow: This is an open-source software library for  machine learning and deep learning. It can be used to build and train deep learning models, including those for face detection.
+2.  TensorFlow: This is an open-source software library for  machine learning and deep learning. It can be used to build and train deep learning models, including those for face detection.
 
 3.	OpenCV: This is an open-source computer vision library that provides various functions for image and video processing. It can be used to pre-process and post-process images and videos, as well as to detect and track faces.
 
@@ -27,7 +27,7 @@ Labelme 4.5 or above
 
 5.	Albumentations: This is a library for image augmentation, which is the process of generating new, modified versions of existing images. It is useful for increasing the size and diversity of our dataset, which can improve the performance of our face detection model.
 
-##To build a deep face detection system, we can follow these steps:
+## To build a deep face detection system, we can follow these steps:
 
 ### Step 1: Collect and Annotate Data
 
