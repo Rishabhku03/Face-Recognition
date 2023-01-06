@@ -43,7 +43,7 @@ First, you will need to convert the annotations into a format that can be used b
 
 Next, you will need to split the data into training and testing sets. It is important to have a separate test set so that you can evaluate the performance of your model on unseen data. You can use a tool like train_test_split from the scikit-learn library to split the data into a training set and a test set.
 
-## Step 3: Augment the Data
+### Step 3: Augment the Data
 
 Data augmentation is the process of generating new data from existing data by applying a set of random transformations. It is a useful technique for increasing the size and diversity of your dataset, and can help to improve the generalization ability of your model.
 
@@ -55,7 +55,7 @@ Adding noise or blur to the images
 Varying the lighting or color balance
 In this step, you will use the Albumentations library to augment your data.
 
-## Step 4: Build the Model
+### Step 4: Build the Model
 
 Now that you have your data prepared, you can start building the model. There are a variety of approaches that you can take for this, such as using a pre-trained model or training a model from scratch.
 
@@ -63,13 +63,13 @@ If you choose to use a pre-trained model, you can use a tool like TensorFlow's K
 
 If you choose to train a model from scratch, you will need to define the architecture of your model and then use TensorFlow to train it on your dataset. You can use tools like Keras or TensorFlow's low-level API to define and train the model.
 
-## Step 5: Evaluate the Model
+### Step 5: Evaluate the Model
 
 Once you have trained your model, you will need to evaluate its performance on the test set. You can use tools like Keras' evaluate function or TensorFlow's metrics module to calculate performance metrics such as accuracy, precision, and recall.
 
 You should also visualize the predictions made by your model on the test set using tools like Matplotlib or OpenCV. This will allow you to see how well the model is able to detect faces in the test images.
 
-## Step 6: Fine-Tune and Optimize the Model
+### Step 6: Fine-Tune and Optimize the Model
 
 Once you have evaluated the performance of your model, you may want to fine-tune and optimize it further. There are a number of techniques that you can use for this, such as:
 
@@ -79,7 +79,7 @@ Adding or removing layers from the model
 Using different types of regularization
 You can use techniques like hyperparameter tuning or cross-validation to find the best set of hyperparameters for your model.
 
-## Step 7: Deploy the Model
+### Step 7: Deploy the Model
 
 Once you have fine-tuned and optimized your model, you can deploy it in a variety of applications. Some common ways to deploy a face detection model include:
 
