@@ -6,7 +6,7 @@ In this, we build a comprehensive deep face detection system using a range of to
 
 ## Prerequisites
 
-Before starting this tutorial, you should have the following software and libraries installed on your machine:
+Before starting this, you should have the following software and libraries installed on your machine:
 
 Python 3.5 or above
 TensorFlow 2.3 or above
